@@ -31,9 +31,9 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-SQLAlchemy = ">=1.4.36,<2.0.0"
-pydantic = "^1.9.0"
+python = "^3.8"
+pydantic = "^2.5.0"
+SQLAlchemy = ">=2.0.0,<=2.1.0b1"
 sqlalchemy2-stubs = {version = "*", allow-prereleases = true}
 
 [tool.poetry.group.dev.dependencies]
